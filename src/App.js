@@ -98,7 +98,7 @@ function App() {
   const [showScore, setShowScore] = useState(false);
   const [quizQuestions, setQuizQuestions] = useState([]);
   const [showHome, setShowHome] = useState(true);
-  const [timeLeft, setTimeLeft] = useState(30); // 30 seconds for each question
+  const [timeLeft, setTimeLeft] = useState(30); 
 
   // Get high scores from local storage
   const getHighScores = () => JSON.parse(localStorage.getItem('highScores')) || [];
